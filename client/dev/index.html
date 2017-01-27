@@ -1,30 +1,25 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 
 <head>
-  <base href="/">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <link rel="shortcut icon" type="image/ico" href="favicon.png" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="@angular/material/core/theming/prebuilt/deeppurple-amber.css" rel="stylesheet">
-
-  <title>GemLibs</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-  <app></app>
-  <navbar></navbar>
-
-  <script src="./systemjs/dist/system.js?rev=@@hash"></script>
-  <script src="./reflect-metadata/Reflect.js?rev=@@hash"></script>
-  <script src="./zone.js/dist/zone.js?rev=@@hash"></script>
-  <script src="./config.js?rev=@@hash"></script>
-  <script>
-    System.import("./index.js").catch(function(err){ console.error(err); });
-  </script>
-
+    <canvas tabindex="-1">
+    </canvas>
+    <div id="loading">
+        <img src="images/gem-ico.svg" draggable="false">
+        <progress max="100" value="0">
+        </progress>
+    </div>
+    <script src="SupCore.js">
+    </script>
+    <script src="SupEngine.js">
+    </script>
+    <script src="SupRuntime.js">
+    </script>
 </body>
 
 </html>

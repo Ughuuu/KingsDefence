@@ -15,7 +15,9 @@
          ]
     },
     "exclude": [
-	    "node_modules"
+	    "node_modules",
+        "client/dev/assets/**/*",
+        "client/dist/assets/**/*"
     ],
     "filesGlob": [
       "**/*.ts"

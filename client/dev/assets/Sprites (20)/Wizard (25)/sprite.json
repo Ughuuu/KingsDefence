@@ -1,0 +1,51 @@
+{
+  "formatVersion": 3,
+  "maps": [
+    "map"
+  ],
+  "filtering": "pixelated",
+  "wrapping": "clampToEdge",
+  "pixelsPerUnit": 100,
+  "framesPerSecond": 10,
+  "opacity": null,
+  "alphaTest": 0.1,
+  "frameOrder": "rows",
+  "grid": {
+    "width": 75,
+    "height": 75
+  },
+  "origin": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "animations": [
+    {
+      "id": "0",
+      "name": "Idle",
+      "startFrameIndex": 14,
+      "endFrameIndex": 35,
+      "speed": 1
+    },
+    {
+      "id": "1",
+      "name": "Walk",
+      "startFrameIndex": 14,
+      "endFrameIndex": 35,
+      "speed": 1
+    },
+    {
+      "id": "2",
+      "name": "Attack",
+      "startFrameIndex": 0,
+      "endFrameIndex": 13,
+      "speed": 1
+    }
+  ],
+  "mapSlots": {
+    "map": "map",
+    "light": null,
+    "specular": null,
+    "alpha": null,
+    "normal": null
+  }
+}

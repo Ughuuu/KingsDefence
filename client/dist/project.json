@@ -1,0 +1,176 @@
+{
+  "name": "Test",
+  "assets": [
+    {
+      "id": "15",
+      "name": "Tilesets",
+      "type": null,
+      "children": [
+        {
+          "id": "10",
+          "name": "Crystal",
+          "type": "tileSet"
+        },
+        {
+          "id": "29",
+          "name": "Wood",
+          "type": "tileSet"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Maps",
+      "type": null,
+      "children": [
+        {
+          "id": "11",
+          "name": "Test",
+          "type": "tileMap"
+        },
+        {
+          "id": "30",
+          "name": "Test2",
+          "type": "tileMap"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Prefabs",
+      "type": null,
+      "children": [
+        {
+          "id": "14",
+          "name": "Goblin",
+          "type": "scene"
+        },
+        {
+          "id": "22",
+          "name": "Blob",
+          "type": "scene"
+        },
+        {
+          "id": "24",
+          "name": "Militia",
+          "type": "scene"
+        },
+        {
+          "id": "26",
+          "name": "Wizard",
+          "type": "scene"
+        },
+        {
+          "id": "28",
+          "name": "Knight",
+          "type": "scene"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Scripts",
+      "type": null,
+      "children": [
+        {
+          "id": "5",
+          "name": "Player",
+          "type": "script"
+        },
+        {
+          "id": "8",
+          "name": "Enemy",
+          "type": "script"
+        },
+        {
+          "id": "21",
+          "name": "Camera",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Scenes",
+      "type": null,
+      "children": [
+        {
+          "id": "4",
+          "name": "Main",
+          "type": "scene"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Sprites",
+      "type": null,
+      "children": [
+        {
+          "id": "6",
+          "name": "Goblin",
+          "type": "sprite"
+        },
+        {
+          "id": "7",
+          "name": "BlobMonster",
+          "type": "sprite"
+        },
+        {
+          "id": "23",
+          "name": "Militia",
+          "type": "sprite"
+        },
+        {
+          "id": "25",
+          "name": "Wizard",
+          "type": "sprite"
+        },
+        {
+          "id": "27",
+          "name": "Knight",
+          "type": "sprite"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "BG",
+      "type": null,
+      "children": [
+        {
+          "id": "31",
+          "name": "Clouds",
+          "type": "sprite"
+        },
+        {
+          "id": "32",
+          "name": "Ground",
+          "type": "sprite"
+        },
+        {
+          "id": "34",
+          "name": "Sea",
+          "type": "sprite"
+        },
+        {
+          "id": "35",
+          "name": "Sky",
+          "type": "sprite"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "Sound",
+      "type": null,
+      "children": [
+        {
+          "id": "37",
+          "name": "Sound",
+          "type": "sound"
+        }
+      ]
+    }
+  ]
+}
